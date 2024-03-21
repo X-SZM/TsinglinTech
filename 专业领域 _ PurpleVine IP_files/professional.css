@@ -1,0 +1,122 @@
+.cont{
+    background-color: #ffffff;
+    min-width: 1200px;
+}
+.cont .container{
+    padding: 0 1.4rem;
+    min-width: 10rem;
+    max-width: 12.5rem;
+}
+.title{
+    margin-top: 1.08rem;
+    font-size: .32rem;
+    color: #000000;
+    font-weight: bold;
+}
+.title_arrow{
+    display: inline-block;
+    width: .14rem;
+    margin-left: .2rem;
+}
+.sub_title{
+    font-size: .32rem;
+    color: #000000;
+    margin-bottom: .34rem;
+}
+.tip_title{
+    font-size: .32rem;
+    padding: .1rem .28rem;
+    background-color: #3f1daa;
+    color: #ffffff;
+    overflow: hidden;
+    border-radius: .06rem;
+    font-weight: bold;
+    margin-bottom: .45rem;
+    word-spacing: .02rem;
+    letter-spacing:.02rem;
+}
+.tip_title_more{
+    float: right;
+    font-weight: normal;
+}
+.table_box{
+    border-top: 1px solid #000000;
+    overflow: hidden;
+    margin-bottom: 1.08rem;
+}
+.td{
+    /*float: left;
+    width: 49.5%;*/
+    margin-top: .19rem;
+    overflow: hidden;
+    height: .52rem;
+    line-height: .52rem;
+    padding: .43rem 0;
+    border-left: .01rem solid #000000;
+    border-right: .01rem solid #000000;
+    border-bottom: .01rem solid #000000;
+    border-bottom-left-radius: .1rem;
+    border-bottom-right-radius: .1rem;
+    color: #000000;
+}
+/*.td:nth-of-type(2n+0){
+    float: right;
+    border-left: none;
+    border-bottom-left-radius: 0;
+}*/
+.td:hover{
+    color: #3f1daa;
+}
+.td_left{
+    font-size: .5rem;
+    font-weight: bold;
+    float: left;
+    padding-left: .38rem;
+}
+.td_left span{
+    font-size: .25rem;
+}
+.td_right{
+    float: left;
+    font-size: .24rem;
+    margin-left: .38rem;
+}
+.tr{
+    /*width: 99.8%;*/
+}
+/*.tr:nth-of-type(2n+0){
+    border-left: .01rem solid #000000;
+    border-bottom-left-radius: .1rem;
+}*/
+.tr .td_left{
+    width: 1.4rem;
+}
+.tr .td_right{
+    margin-left: 0;
+}
+.list_num{
+    display: inline-block;
+    width: .624rem;
+    height: .624rem;
+    line-height: .624rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #cccccc;
+    border-radius: 50%;
+    position: relative;
+    top: -.09rem;
+}
+.td:hover .list_num,.active .list_num{
+    background-color: #3636c6;
+}
+.arrow_active{
+    display: none;
+    float: right;
+    width: .14rem;
+    margin-right: .2rem;
+    position: relative;
+    top: .2rem;
+}
+.td:hover .arrow_active,.active .arrow_active{
+    display: block;
+}

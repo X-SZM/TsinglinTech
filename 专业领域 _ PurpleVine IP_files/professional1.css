@@ -1,0 +1,47 @@
+.honor_cont{
+    overflow: hidden;
+}
+.honor_box{
+    float: left;
+    width: 3.02rem;
+    padding: .476rem .452rem .576rem;
+    border-radius: .5rem;
+    border: 0.01rem solid #cccccc;
+    margin-right: .29rem;
+    margin-bottom: 1.334rem;
+}
+.honor_box:nth-of-type(3n+0){
+    margin-right: 0;
+}
+.honor_img{
+    line-height: 2.3rem;
+    text-align: center;
+}
+.honor_img img{
+    vertical-align: middle;
+    display: inline;
+}
+.honor_txt_box{
+    margin-top: .2rem;
+    font-size: .22rem;
+    color: #333333;
+    text-align: center;
+}
+.honor_num{
+    font-weight: bold;
+}
+.honor_num span{
+    font-size: .6rem;
+}
+.honor_txt{
+    font-size: .22rem;
+}
+.list_box{
+    padding-bottom: 1rem;
+}
+.list_txt{
+    padding: .3rem 0;
+    font-size: .22rem;
+    color: #000000;
+    border-bottom: .01rem solid #cccccc;
+}
